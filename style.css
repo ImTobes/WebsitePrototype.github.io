@@ -149,7 +149,7 @@ button:hover {
 }
 
 .footer-link {
-  color: var(--gray-800);
+  color: gray;
   text-decoration: none;
 }
 
