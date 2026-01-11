@@ -14,12 +14,20 @@
 }
 
 .navbarcontent {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     padding-bottom: 50px;
     background: inherit;
 }
 
 .navbarcontent li {
-    display: flex;
-    list-style-type: none;
-    color: #000;
+    margin-right: 20px;
+}
+
+.navbarcontent li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
 }
