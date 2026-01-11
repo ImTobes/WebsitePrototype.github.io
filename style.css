@@ -17,3 +17,7 @@
     padding-bottom: 50px;
     background: inherit;
 }
+
+.navbarcontent li {
+    display: flex;
+}
