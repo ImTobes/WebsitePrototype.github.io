@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+   
 }
 
 li, a, button {
@@ -17,13 +18,16 @@ li, a, button {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10px;
+    background-color: #24252A;
+    position: sticky; top: 0;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 .nav__links {
@@ -37,4 +41,26 @@ header {
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.video__container {
+    background-color: beige;
 }
