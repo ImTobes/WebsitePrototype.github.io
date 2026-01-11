@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #ccc;
+    outline: 3px solid #000;
+}
+
+.navbarcontent {
+    padding-bottom: 50px;
+    background: inherit;
+}
