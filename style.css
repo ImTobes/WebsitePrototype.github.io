@@ -149,12 +149,12 @@ button:hover {
 }
 
 .footer-link {
-  color: var(--gray-600);
+  color: var(--gray-800);
   text-decoration: none;
 }
 
 .footer-link:hover {
-  color: var(--gray-800);
+  color: var(--gray-600);
 }
 
 .footer-bottom {
